@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  background-color: theme('colors.field');
+}
+
+body {
+  min-height: 100dvh;
+  font-family: theme('fontFamily.sans');
+  background: radial-gradient(circle at 20% 20%, rgba(124, 199, 237, 0.3), transparent 60%),
+    radial-gradient(circle at 80% 10%, rgba(206, 142, 50, 0.25), transparent 55%),
+    theme('colors.field');
+  color: theme('colors.dusk');
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: theme('fontFamily.display');
+}
